@@ -1,0 +1,883 @@
+View2D {stateStack: Array(0), realChildren: Array(0), hasSpawnedChildren: false, compositeOverride: ƒ, parent: ƒ, …}
+absoluteOpacity
+: 
+ƒ ()
+absolutePosition
+: 
+ƒ ()
+absoluteRotation
+: 
+ƒ ()
+absoluteScale
+: 
+ƒ ()
+alignContent
+: 
+ƒ ()
+alignItems
+: 
+ƒ ()
+alignSelf
+: 
+ƒ ()
+anchorPosition
+: 
+ƒ ()
+antialiased
+: 
+ƒ ()
+appendedToView
+: 
+ƒ ()
+applyFlex
+: 
+ƒ ()
+applyFont
+: 
+ƒ ()
+arcLength
+: 
+ƒ ()
+arrowSize
+: 
+ƒ ()
+assetHash
+: 
+ƒ ()
+basis
+: 
+ƒ ()
+bottom
+: 
+ƒ ()
+bottomLeft
+: 
+ƒ ()
+bottomRight
+: 
+ƒ ()
+cache
+: 
+ƒ ()
+cacheBBox
+: 
+ƒ ()
+cacheCanvas
+: 
+ƒ ()
+cachePadding
+: 
+ƒ ()
+cachedCanvas
+: 
+ƒ ()
+canHaveSubpath
+: 
+false
+children
+: 
+ƒ ()
+clip
+: 
+ƒ ()
+closed
+: 
+ƒ ()
+composite
+: 
+ƒ ()
+compositeOperation
+: 
+ƒ ()
+compositeOverride
+: 
+ƒ ()
+compositeRoot
+: 
+ƒ ()
+compositeToLocal
+: 
+ƒ ()
+compositeToWorld
+: 
+ƒ ()
+computedPosition
+: 
+ƒ ()
+computedSize
+: 
+ƒ ()
+cornerSharpness
+: 
+ƒ ()
+creationStack
+: 
+"Error\n    at new Node (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/2d/src/lib/components/Node.ts:63:26)\n    at new Layout (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/2d/src/lib/components/Layout.ts:40:5)\n    at new Shape (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/2d/src/lib/components/Shape.ts:27:5)\n    at new Curve (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/2d/src/lib/components/Curve.ts:22:5)\n    at new Rect (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/2d/src/lib/components/Rect.ts:22:5)\n    at new View2D (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/2d/src/lib/components/View2D.ts:19:5)\n    at http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/2d/src/lib/scenes/Scene2D.ts:146:19\n    at Scene2D.execute (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/core/src/scenes/GeneratorScene.ts:272:16)\n    at Scene2D.recreateView (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/2d/src/lib/scenes/Scene2D.ts:144:10)\n    at Scene2D.reset (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/2d/src/lib/scenes/Scene2D.ts:54:10)\n    at PlaybackManager.seek (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/core/src/app/PlaybackManager.ts:76:33)\n    at Player.run (http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/core/src/app/Player.ts:338:27)\n    at async http://localhost:9001/@fs/Users/tanguy.renaudie/motion_canvas_projects/motion-canvas/packages/core/src/app/Player.ts:376:11"
+curveDrawingInfo
+: 
+ƒ ()
+desiredSize
+: 
+ƒ ()
+direction
+: 
+ƒ ()
+element
+: 
+div
+end
+: 
+ƒ ()
+endArrow
+: 
+ƒ ()
+endOffset
+: 
+ƒ ()
+fill
+: 
+ƒ ()
+filterString
+: 
+ƒ ()
+filters
+: 
+ƒ ()
+fontFamily
+: 
+ƒ ()
+fontSize
+: 
+ƒ ()
+fontStyle
+: 
+ƒ ()
+fontWeight
+: 
+ƒ ()
+fullCacheBBox
+: 
+ƒ ()
+gap
+: 
+ƒ ()
+getPath
+: 
+ƒ ()
+globalTime
+: 
+ƒ ()
+grow
+: 
+ƒ ()
+hasFilters
+: 
+ƒ ()
+hasShadow
+: 
+ƒ ()
+hasSpawnedChildren
+: 
+false
+isLayoutRoot
+: 
+ƒ ()
+justifyContent
+: 
+ƒ ()
+key
+: 
+"example2/View2D[1]"
+layout
+: 
+ƒ ()
+layoutChildren
+: 
+ƒ ()
+layoutEnabled
+: 
+ƒ ()
+left
+: 
+ƒ ()
+letterSpacing
+: 
+ƒ ()
+lineCap
+: 
+ƒ ()
+lineDash
+: 
+ƒ ()
+lineDashOffset
+: 
+ƒ ()
+lineHeight
+: 
+ƒ ()
+lineJoin
+: 
+ƒ ()
+lineWidth
+: 
+ƒ ()
+localToParent
+: 
+ƒ ()
+localToWorld
+: 
+ƒ ()
+margin
+: 
+ƒ ()
+maxHeight
+: 
+ƒ ()
+maxWidth
+: 
+ƒ ()
+middle
+: 
+ƒ ()
+minHeight
+: 
+ƒ ()
+minWidth
+: 
+ƒ ()
+offset
+: 
+ƒ ()
+opacity
+: 
+ƒ ()
+padding
+: 
+ƒ ()
+parent
+: 
+ƒ ()
+parentToWorld
+: 
+ƒ ()
+parentTransform
+: 
+ƒ ()
+parentWorldSpaceCacheBBox
+: 
+ƒ ()
+playbackState
+: 
+ƒ ()
+position
+: 
+ƒ ()
+profile
+: 
+ƒ ()
+properties
+: 
+{position: {…}, absolutePosition: {…}, rotation: {…}, absoluteRotation: {…}, scale: {…}, …}
+radius
+: 
+ƒ ()
+ratio
+: 
+ƒ ()
+realChildren
+: 
+[Circle]
+requestFontUpdate
+: 
+ƒ ()
+requestLayoutUpdate
+: 
+ƒ ()
+right
+: 
+ƒ ()
+rippleSize
+: 
+ƒ ()
+rippleStrength
+: 
+ƒ ()
+rotation
+: 
+ƒ ()
+scale
+: 
+ƒ ()
+scalingRotationMatrix
+: 
+ƒ ()
+shaders
+: 
+ƒ ()
+shadowBlur
+: 
+ƒ ()
+shadowColor
+: 
+ƒ ()
+shadowOffset
+: 
+ƒ ()
+shrink
+: 
+ƒ ()
+size
+: 
+ƒ ()
+sizeLockCounter
+: 
+ƒ ()
+skew
+: 
+ƒ ()
+smoothCorners
+: 
+ƒ ()
+sortedChildren
+: 
+ƒ ()
+spawnedChildren
+: 
+ƒ ()
+spawner
+: 
+ƒ ()
+start
+: 
+ƒ ()
+startArrow
+: 
+ƒ ()
+startOffset
+: 
+ƒ ()
+stateStack
+: 
+[]
+stroke
+: 
+ƒ ()
+strokeFirst
+: 
+ƒ ()
+styles
+: 
+CSSStyleDeclaration {0: 'accent-color', 1: 'align-content', 2: 'align-items', 3: 'align-self', 4: 'alignment-baseline', 5: 'anchor-name', 6: 'anchor-scope', 7: 'animation-composition', 8: 'animation-delay', 9: 'animation-direction', 10: 'animation-duration', 11: 'animation-fill-mode', 12: 'animation-iteration-count', 13: 'animation-name', 14: 'animation-play-state', 15: 'animation-range-end', 16: 'animation-range-start', 17: 'animation-timeline', 18: 'animation-timing-function', 19: 'app-region', 20: 'appearance', 21: 'backdrop-filter', 22: 'backface-visibility', 23: 'background-attachment', 24: 'background-blend-mode', 25: 'background-clip', 26: 'background-color', 27: 'background-image', 28: 'background-origin', 29: 'background-position', 30: 'background-repeat', 31: 'background-size', 32: 'baseline-shift', 33: 'baseline-source', 34: 'block-size', 35: 'border-block-end-color', 36: 'border-block-end-style', 37: 'border-block-end-width', 38: 'border-block-start-color', 39: 'border-block-start-style', 40: 'border-block-start-width', 41: 'border-bottom-color', 42: 'border-bottom-left-radius', 43: 'border-bottom-right-radius', 44: 'border-bottom-style', 45: 'border-bottom-width', 46: 'border-collapse', 47: 'border-end-end-radius', 48: 'border-end-start-radius', 49: 'border-image-outset', 50: 'border-image-repeat', 51: 'border-image-slice', 52: 'border-image-source', 53: 'border-image-width', 54: 'border-inline-end-color', 55: 'border-inline-end-style', 56: 'border-inline-end-width', 57: 'border-inline-start-color', 58: 'border-inline-start-style', 59: 'border-inline-start-width', 60: 'border-left-color', 61: 'border-left-style', 62: 'border-left-width', 63: 'border-right-color', 64: 'border-right-style', 65: 'border-right-width', 66: 'border-start-end-radius', 67: 'border-start-start-radius', 68: 'border-top-color', 69: 'border-top-left-radius', 70: 'border-top-right-radius', 71: 'border-top-style', 72: 'border-top-width', 73: 'bottom', 74: 'box-decoration-break', 75: 'box-shadow', 76: 'box-sizing', 77: 'break-after', 78: 'break-before', 79: 'break-inside', 80: 'buffered-rendering', 81: 'caption-side', 82: 'caret-color', 83: 'clear', 84: 'clip', 85: 'clip-path', 86: 'clip-rule', 87: 'color', 88: 'color-interpolation', 89: 'color-interpolation-filters', 90: 'color-rendering', 91: 'column-count', 92: 'column-gap', 93: 'column-rule-color', 94: 'column-rule-style', 95: 'column-rule-width', 96: 'column-span', 97: 'column-width', 98: 'contain-intrinsic-block-size', 99: 'contain-intrinsic-height', …}
+textAlign
+: 
+ƒ ()
+textDirection
+: 
+ƒ ()
+textWrap
+: 
+ƒ ()
+top
+: 
+ƒ ()
+topLeft
+: 
+ƒ ()
+topRight
+: 
+ƒ ()
+unregister
+: 
+() => currentNodeMap.delete(key)
+updateLayout
+: 
+ƒ ()
+view2D
+: 
+View2D {stateStack: Array(0), realChildren: Array(1), hasSpawnedChildren: false, compositeOverride: ƒ, parent: ƒ, …}
+worldSpaceCacheBBox
+: 
+ƒ ()
+worldToLocal
+: 
+ƒ ()
+worldToParent
+: 
+ƒ ()
+wrap
+: 
+ƒ ()
+zIndex
+: 
+ƒ ()
+columnGap
+: 
+(...)
+height
+: 
+(...)
+rowGap
+: 
+(...)
+width
+: 
+(...)
+x
+: 
+(...)
+y
+: 
+(...)
+[[Prototype]]
+: 
+Rect
+Symbol(@motion-canvas/2d/decorators/initializers)
+: 
+(124) [ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, …]
+Symbol(@motion-canvas/2d/decorators/properties)
+: 
+{position: {…}, absolutePosition: {…}, rotation: {…}, absoluteRotation: {…}, scale: {…}, …}
+Symbol(@motion-canvas/2d/nodeName)
+: 
+"View2D"
+constructor
+: 
+class extends
+dispose
+: 
+ƒ dispose()
+findKey
+: 
+ƒ findKey(key)
+render
+: 
+ƒ render(context)
+requestFontUpdate
+: 
+ƒ requestFontUpdate()
+requestLayoutUpdate
+: 
+ƒ requestLayoutUpdate()
+view
+: 
+ƒ view()
+columnGap
+: 
+(...)
+height
+: 
+(...)
+rowGap
+: 
+(...)
+width
+: 
+(...)
+x
+: 
+(...)
+y
+: 
+(...)
+[[Prototype]]
+: 
+Curve
+Symbol(@motion-canvas/2d/decorators/initializers)
+: 
+(121) [ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, …]
+Symbol(@motion-canvas/2d/decorators/properties)
+: 
+{position: {…}, absolutePosition: {…}, rotation: {…}, absoluteRotation: {…}, scale: {…}, …}
+Symbol(@motion-canvas/2d/nodeName)
+: 
+"Rect"
+childrenBBox
+: 
+ƒ childrenBBox()
+constructor
+: 
+class extends
+desiredSize
+: 
+ƒ desiredSize()
+getCacheBBox
+: 
+ƒ getCacheBBox()
+getPath
+: 
+ƒ getPath()
+getRipplePath
+: 
+ƒ getRipplePath()
+offsetComputedLayout
+: 
+ƒ offsetComputedLayout(box)
+profile
+: 
+ƒ profile()
+columnGap
+: 
+(...)
+height
+: 
+(...)
+rowGap
+: 
+(...)
+width
+: 
+(...)
+x
+: 
+(...)
+y
+: 
+(...)
+[[Prototype]]
+: 
+Shape
+Symbol(@motion-canvas/2d/decorators/initializers)
+: 
+(117) [ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, …]
+Symbol(@motion-canvas/2d/decorators/properties)
+: 
+{position: {…}, absolutePosition: {…}, rotation: {…}, absoluteRotation: {…}, scale: {…}, …}
+Symbol(@motion-canvas/2d/nodeName)
+: 
+"Curve"
+arcLength
+: 
+ƒ arcLength()
+baseArcLength
+: 
+ƒ baseArcLength()
+completion
+: 
+ƒ completion()
+constructor
+: 
+class extends
+curveDrawingInfo
+: 
+ƒ curveDrawingInfo()
+desiredSize
+: 
+ƒ desiredSize()
+distanceToPercentage
+: 
+ƒ distanceToPercentage(value)
+drawArrow
+: 
+ƒ drawArrow(context, center, tangent, arrowSize)
+drawArrows
+: 
+ƒ drawArrows(context)
+drawShape
+: 
+ƒ drawShape(context)
+getCacheBBox
+: 
+ƒ getCacheBBox()
+getComputedLayout
+: 
+ƒ getComputedLayout()
+getPath
+: 
+ƒ getPath()
+getPointAtDistance
+: 
+ƒ getPointAtDistance(value)
+getPointAtPercentage
+: 
+ƒ getPointAtPercentage(value)
+lineWidthCoefficient
+: 
+ƒ lineWidthCoefficient()
+offsetArcLength
+: 
+ƒ offsetArcLength()
+offsetComputedLayout
+: 
+ƒ offsetComputedLayout(box)
+percentageToDistance
+: 
+ƒ percentageToDistance(value)
+processSubpath
+: 
+ƒ processSubpath(_path, _startPoint, _endPoint)
+requiresProfile
+: 
+ƒ requiresProfile()
+columnGap
+: 
+(...)
+height
+: 
+(...)
+rowGap
+: 
+(...)
+width
+: 
+(...)
+x
+: 
+(...)
+y
+: 
+(...)
+[[Prototype]]
+: 
+Layout
+Symbol(@motion-canvas/2d/decorators/initializers)
+: 
+(107) [ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, …]
+Symbol(@motion-canvas/2d/decorators/properties)
+: 
+{position: {…}, absolutePosition: {…}, rotation: {…}, absoluteRotation: {…}, scale: {…}, …}
+Symbol(@motion-canvas/2d/nodeName)
+: 
+"Shape"
+applyStyle
+: 
+ƒ applyStyle(context)
+applyText
+: 
+ƒ applyText(context)
+constructor
+: 
+class extends
+draw
+: 
+ƒ draw(context)
+drawRipple
+: 
+ƒ drawRipple(context)
+drawShape
+: 
+ƒ drawShape(context)
+getCacheBBox
+: 
+ƒ getCacheBBox()
+getPath
+: 
+ƒ getPath()
+getRipplePath
+: 
+ƒ getRipplePath()
+ripple
+: 
+ƒ* ripple(duration = 1)
+rippleSize
+: 
+ƒ rippleSize()
+columnGap
+: 
+(...)
+height
+: 
+(...)
+rowGap
+: 
+(...)
+width
+: 
+(...)
+x
+: 
+(...)
+y
+: 
+(...)
+[[Prototype]]
+: 
+Node
+getDefaultFontFamily
+: 
+ƒ ()
+getDefaultFontSize
+: 
+ƒ ()
+getDefaultFontStyle
+: 
+ƒ ()
+getDefaultFontWeight
+: 
+ƒ ()
+getDefaultLetterSpacing
+: 
+ƒ ()
+getDefaultLineHeight
+: 
+ƒ ()
+getDefaultTextAlign
+: 
+ƒ ()
+getDefaultTextWrap
+: 
+ƒ ()
+Symbol(@motion-canvas/2d/decorators/initializers)
+: 
+(96) [ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ, ƒ]
+Symbol(@motion-canvas/2d/decorators/properties)
+: 
+{position: {…}, absolutePosition: {…}, rotation: {…}, absoluteRotation: {…}, scale: {…}, …}
+Symbol(@motion-canvas/2d/nodeName)
+: 
+"Layout"
+anchorPosition
+: 
+ƒ anchorPosition()
+appendedToView
+: 
+ƒ appendedToView()
+applyFlex
+: 
+ƒ applyFlex()
+applyFont
+: 
+ƒ applyFont()
+cardinalPoint
+: 
+ƒ cardinalPoint(origin)
+columnGap
+: 
+(...)
+computedPosition
+: 
+ƒ computedPosition()
+computedSize
+: 
+ƒ computedSize()
+constructor
+: 
+class extends
+desiredSize
+: 
+ƒ desiredSize()
+dispose
+: 
+ƒ dispose()
+draw
+: 
+ƒ draw(context)
+drawOverlay
+: 
+ƒ drawOverlay(context, matrix)
+getCacheBBox
+: 
+ƒ getCacheBBox()
+getComputedLayout
+: 
+ƒ getComputedLayout()
+getHeight
+: 
+ƒ getHeight()
+getOriginDelta
+: 
+ƒ getOriginDelta(origin)
+getWidth
+: 
+ƒ getWidth()
+getX
+: 
+ƒ getX()
+getY
+: 
+ƒ getY()
+height
+: 
+(...)
+hit
+: 
+ƒ hit(position)
+isLayoutRoot
+: 
+ƒ isLayoutRoot()
+layoutChildren
+: 
+ƒ layoutChildren()
+layoutEnabled
+: 
+ƒ layoutEnabled()
+localToParent
+: 
+ƒ localToParent()
+lockSize
+: 
+ƒ lockSize()
+moveOffset
+: 
+ƒ moveOffset(offset)
+parentTransform
+: 
+ƒ parentTransform()
+parseLength
+: 
+ƒ parseLength(value)
+parsePixels
+: 
+ƒ parsePixels(value)
+releaseSize
+: 
+ƒ releaseSize()
+requestFontUpdate
+: 
+ƒ requestFontUpdate()
+requestLayoutUpdate
+: 
+ƒ requestLayoutUpdate()
+rowGap
+: 
+(...)
+scalingRotationMatrix
+: 
+ƒ scalingRotationMatrix()
+setHeight
+: 
+ƒ setHeight(value)
+setWidth
+: 
+ƒ setWidth(value)
+setX
+: 
+ƒ setX(value)
+setY
+: 
+ƒ setY(value)
+tweenHeight
+: 
+ƒ* tweenHeight(value, time, timingFunction, interpolationFunction)
+tweenSize
+: 
+ƒ* tweenSize(value, time, timingFunction, interpolationFunction)
+tweenWidth
+: 
+ƒ* tweenWidth(value, time, timingFunction, interpolationFunction)
+updateLayout
+: 
+ƒ updateLayout()
+width
+: 
+(...)
+x
+: 
+(...)
+y
+: 
+(...)
+get columnGap
+: 
+ƒ columnGap()
+get height
+: 
+ƒ height()
+get rowGap
+: 
+ƒ rowGap()
+get width
+: 
+ƒ width()
+[[Prototype]]
+: 
+Object

@@ -19,6 +19,7 @@
     "ui:showcase": "npm run showcase -w packages/ui",
     "ui:type": "npm run type -w packages/ui",
     "template:dev": "npm run dev -w packages/template",
+    "template:dev2": "npm run dev -w packages/template2",
     "template:build": "npm run build -w packages/template",
     "examples:dev": "npm run dev -w packages/examples",
     "examples:build": "npm run build -w packages/examples",
