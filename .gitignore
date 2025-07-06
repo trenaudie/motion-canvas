@@ -17,3 +17,7 @@ node_modules
 # Motion Canvas meta files
 *.meta
 *.meta.json
+
+
+video_coordinate_spaces
+*.mp3
