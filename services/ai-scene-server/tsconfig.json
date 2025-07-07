@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "ES2020",                           /* Modern JS output for Node 14+ */
+      "module": "CommonJS",                         /* Node’s default module system */
+      "rootDir": "src",                             /* Where your .ts source lives */
+      "outDir": "dist",                             /* Where compiled .js will go */
+      "strict": true,                               /* Enable all strict type-checking options */
+      "esModuleInterop": true,                      /* Allow default import syntax for CommonJS modules */
+      "forceConsistentCasingInFileNames": true,     /* Ensure file imports have correct casing */
+      "skipLibCheck": true,                         /* Skip type-checking of declaration files */
+      "sourceMap": true,                            /* Generate sourcemaps for easier debugging */
+  
+      /* Optional but helpful */
+      "resolveJsonModule": true,                    /* Import JSON files as modules */
+      "noImplicitAny": true,                        /* Prevent usage of variables with implicit any */
+      "noUnusedLocals": true,                       /* Flag unused locals in your code */
+      "noUnusedParameters": true                    /* Flag unused function parameters */
+    },
+    "include": ["src"],                             /* Compile everything in src/ */
+    "exclude": ["node_modules", "dist"]             /* Don’t compile dependencies or build artifacts */
+  }
+  

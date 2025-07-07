@@ -1,0 +1,9 @@
+review:  # good, error, mistake ? 
+  - type :  error 
+    filename : <02_bad.tsx>
+    descriptions : < LLM generated description of this example
+    context: <error traceback for example, or snippets of code, especially for the error>
+  - type : mistake # something that just does not look right but that runs
+    filename : <03_bad.tsx>
+    descriptions : DO NOT USE UTILS IN THE CODE, unless you need to. 
+    context: hook.js:608 TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them

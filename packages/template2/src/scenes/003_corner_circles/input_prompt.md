@@ -1,0 +1,1 @@
+create an animation with four squares, starting on all four corners of view, they are all re at the beginning then that move to the center at the same time, they overlap, then they shrink to zero size

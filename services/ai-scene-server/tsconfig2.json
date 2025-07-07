@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "ES2020",
+      // Change module to ESNext for better alignment with Vite's ES module output
+      // and modern Node.js features. Node.js can handle ESNext modules.
+      "module": "ESNext",
+      "rootDir": "src",
+      "outDir": "dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+  
+      /* Optional but helpful */
+      "resolveJsonModule": true,
+      "noImplicitAny": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+  
+      // --- ADD THESE FOR JSX AND MOTION CANVAS ---
+      "jsx": "react-jsx", // Crucial for Motion Canvas JSX syntax
+      // Add "DOM" to the lib array for browser-like types
+      "lib": ["ES2020", "DOM"],
+      // Recommended by Vite/esbuild for faster, safer transpilation in isolated contexts
+      "isolatedModules": true
+      // --- END ADDITIONS ---
+    },
+    // --- MODIFY INCLUDE FOR SCENE BUILD ---
+    "include": [
+      "src", // Keep your existing source files
+      "scene-build/**/*.ts", // Include the scene-build directory for type checking
+      "scene-build/**/*.tsx" // Include .tsx if you decide to use it
+    ],
+    // --- END MODIFIED INCLUDE ---
+    "exclude": ["node_modules", "dist"]
+  }

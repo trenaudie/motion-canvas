@@ -1,0 +1,17 @@
+history_error_processor_output:
+  error_traceback_snippet: |
+    myCircle(...).radius is not a function
+    The problem occurred here:
+    22 |     myCircle().radius(100, 1).to(50, 1, easeInOutCubic),
+       |                ^
+    23 |     myCircle().fill(new Color('#0000FF'), 1).to(new Color('#FF0000'), 1, easeInOutCubic),
+  code_snippet: |
+    radius={() => 50}
+    ...
+    myCircle().radius(100, 1).to(50, 1, easeInOutCubic)
+    myCircle().radius(20, 1, easeInOutCubic)
+  error_description: >
+    The Circle component in motion-canvas does not have a `radius` property or method. 
+    The good code uses `width` and `height` to control size (since width/height = diameter), 
+    but the failed code incorrectly tries to use `radius` which doesn't exist. This causes 
+    `myCircle().radius()` to throw "is not a function" when attempting to animate.

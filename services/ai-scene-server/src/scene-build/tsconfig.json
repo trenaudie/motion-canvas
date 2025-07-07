@@ -1,0 +1,31 @@
+// services/ai-scene-server/scene-build/tsconfig.json
+{
+    "compilerOptions": {
+      "target": "ESNext",          // Modern JS target for browser execution
+      "module": "ESNext",          // Emit ES Modules (for Vite's 'es' format)
+      "jsx": "react-jsx",          // **CRUCIAL:** For Motion Canvas JSX syntax
+      "lib": ["ES2020", "DOM"],    // Needed for DOM types like `view.add` and `Circle`
+      "strict": true,              // Good practice for scene development
+      "esModuleInterop": true,     // Helps with default imports
+      "allowSyntheticDefaultImports": true, // Often useful with esModuleInterop
+      "isolatedModules": true,     // Recommended by Vite/esbuild for faster transpilation
+      "skipLibCheck": true,        // Skip type checking of declaration files from node_modules
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "rootDir": ".",              // The root for this tsconfig is the current directory (scene-build)
+      "outDir": "." ,
+      "experimentalDecorators": true               // Output compiled JS to the current directory (scene-build)
+    },
+    "include": [
+      "scene-input.ts",            // Only include the input file for this sub-project
+      // You might need to explicitly include paths to Motion Canvas types
+      // if TypeScript can't find them relative to 'scene-build'.
+      // Adjust "../" based on your exact node_modules location relative to scene-build.
+      "../node_modules/@motion-canvas",
+      "../node_modules/@types"
+    ],
+    "exclude": [
+      "node_modules",              // Exclude node_modules within scene-build itself if any
+      "scene-output.js"            // Exclude the generated output file from type checking
+    ]
+  }

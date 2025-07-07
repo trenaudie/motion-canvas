@@ -1,9 +1,9 @@
-import {makeProject} from '@motion-canvas/core';
+import { makeScene2D } from '@motion-canvas/2d';
+import { createRef, createSignal } from '@motion-canvas/core';
+import { Rect, Circle } from '@motion-canvas/2d';
+import { easeInOutCubic } from '@motion-canvas/core';
 
-import example from './scenes/005_pyramid_01/01_good?scene';
-console.log(example);
-
-const function_text =`function* (view) {
+export default makeScene2D(function* (view) {
     // refs to our shapes
     const snake = createRef<Rect>();
     const target = createRef<Circle>();
@@ -56,20 +56,4 @@ const function_text =`function* (view) {
         targetY(positions[posIndex]);
         yield* target().opacity(1, 0.2);
     }
-}`
-
-function create_function_from_text(text: string) {
-  return new Function(text);
-}
-const myDynamicFunction = createFunctionFromText("function(a, b) { return a + b; }");
-function createFunctionFromText(text: string): Function {
-  return new Function(`return ${text}`)();
-}
-
-console.log((myDynamicFunction(2,3)));
-
-console.log(`example config: ${example['config']}`)
-export default makeProject({
-  experimentalFeatures: true,
-  scenes: [example],
 });

@@ -37,26 +37,32 @@ history_good_processor:
   system_prompt:
     general_instruction: >
       You are an agent that helps process the outputs of a coding task.
-      I will be giving you the good code. By “good,” I mean code that runs successfully and is well implemented. 
-      Your job will be to analyze the good code and return a description of the motion canvas features that the code implements well.
-      Specifically, you will be given a Motion Canvas v11 project scene. Motion Canvas is a 2D animation library that runs with TypeScript in the browser.
+      I will be giving you the good code. By “good,” I mean code that runs successfully and is well implemented.
+      Specifically, you will be given a Motion Canvas project scene. Motion Canvas is a 2D animation library that runs with TypeScript in the browser.
+      Your job will be to summarize the scene and the code. Your summary must first to describe what the code aims to render, and animate.
+      It must also include a description of the motion canvas technical features that the code implements well. Eg. dynamic positioning, tweening, signals and effects used to good effect.
       A Motion Canvas project usually contains different scenes playing in sequence. You will be given the code for just one of the scenes.
-    output_format: |
+
+      ## Output Format
+      Your response must follow this YAML structure exactly:
+      ```yaml
       history_good_processor_output:
         summary: >
-          <insert a concise description of the motion canvas features implemented well by the code here>
+          <insert a concise description of the motion canvas scene, what is being animated and how. >
+        technical_features :
+          <insert a concise description of the motion canvas features implemented well by the code here.> 
+      ```
   user_message:
     code: |
       ```typescript
       export default makeScene2D(function* (view) {...
       ```
 
-
 history_good_processor_output:
   summary: >
-    Defines a Motion Canvas v11 scene using `makeScene2D`, employs a generator function for precise animation sequencing, leverages the `view` API to create and manipulate 2D elements, and uses tween-based transitions for smooth, sequential scene playback.
-
-
+    <insert a concise description of the motion canvas scene, what is being animated and how. >
+  technical_features :
+    <insert a concise description of the motion canvas features implemented well by the code here.> 
 
 history_error_processor:
   system_prompt:
